@@ -1,0 +1,39 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: node
+
+    working_directory: ~/src
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: npm-cache-{{ checksum "package.json" }}
+
+      - run:
+          name: Install dependencies
+          command: npm install
+
+      - save_cache:
+          key: npm-cache-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+
+      - run:
+          name: Build webpack
+          command: npm run build
+
+      - store_artifacts:
+          path: build
+
+      - deploy:
+          name: Deploy to AWS S3
+          command: |
+            npx s3-deploy './build/**' \
+              --cwd './build/' \
+              --bucket quick-legal \
+              --region ap-southeast-2 \
+              --cache "public, must-revalidate"
