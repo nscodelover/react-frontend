@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>🐼Icons/🐼QL-Time</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.056,15.037 C21.056,16.673 20.024,18.169 18.488,18.761 L18.071,18.921 L18.071,21.254 L15.842,19.023 L12.93,19.023 C10.732,19.023 8.944,17.235 8.944,15.037 L8.944,10.897 C8.944,8.698 10.732,6.91 12.93,6.91 L17.07,6.91 C19.268,6.91 21.056,8.698 21.056,10.897 L21.056,15.037 Z M17.07,5.609 C19.985,5.609 22.357,7.981 22.357,10.897 L22.357,15.037 C22.357,17.056 21.173,18.913 19.371,19.792 L19.371,24.391 L15.303,20.324 L12.93,20.324 C10.015,20.324 7.643,17.952 7.643,15.037 L7.643,10.897 C7.643,7.981 10.015,5.609 12.93,5.609 L17.07,5.609 Z M15.0218,12.8456 L15.0298,11.6036 L15.0298,10.5046 L14.0798,10.5046 L14.0418,12.8456 C14.0418,13.8296 14.8698,14.6306 15.8868,14.6306 L16.7928,14.6306 L16.7928,13.6826 L15.8868,13.6826 C15.4108,13.6826 15.0218,13.3076 15.0218,12.8456 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🐼Icons/🐼QL-Time">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Icon65" fill="#F8F7F3" xlink:href="#path-1"></use>
+            <g id="🎨colour/🎨blue-dark-official" mask="url(#mask-2)" fill="#35447D">
+                <rect id="Rectangle-2" x="0" y="0" width="30" height="30"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
